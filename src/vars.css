@@ -1,0 +1,15 @@
+:root {
+    /*Colores*/
+    --color-text: #252525;
+    --color-dark: #00296D;
+    --color-accent: #2977D5;
+    --color-purpleblue: #7a99c0;
+    --color-sky: #44C6E9;
+    --color-mediumblue: #9bbeea;
+    --color-lightblue: #D4E4F4;
+    --color-gray: #666666;
+    --color-bg: #f9fbff;
+
+    /*Fuentes*/
+    --font-roboto: "Roboto";
+}

@@ -1,0 +1,51 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-lightblue);
+    height: 200px;
+    align-items: center;
+}
+
+.barraItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    color: var(--color-dark);
+    gap: 60px;
+}
+
+.barraItem{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.barraItem img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.barraItemText{
+    text-align: left;
+}
+
+.barraItemText h2{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 815px) {
+    .container{
+        height: 350px;
+    }
+    .barraItems{
+        flex-direction: column;
+        width:auto;
+        gap: 40px;
+    }
+
+}

@@ -1,0 +1,44 @@
+[
+    {
+      "nombre": "Empastes Dentales",
+      "descripcion": "Eliminación de caries mediante la extracción de la parte afectada y la colocación de un material restaurador (resina compuesta, cerámica, etc.).",      
+      "precio": "$600.00 MXN",
+      "imageSrc": "servicios/empaste.png",
+      "fadein": "right"
+    },
+    {
+        "nombre": "Profilaxis",
+        "descripcion": "Limpieza dental para la eliminación de placa bacteriana, sarro y manchas en los dientes; y así prevenir enfermedades de las encías, como la gingivitis o la periodontitis.",      
+        "precio": "$600.00 MXN",
+        "imageSrc": "servicios/profilaxis.png",
+        "fadein": "right"
+      },
+      {
+        "nombre": "Extracciones Dentales",
+        "descripcion": "Extracción de dientes dañados, dientes de leche, muelas del juicio o dientes que no pueden ser restaurados.",      
+        "precio": "$600.00 MXN",
+        "imageSrc": "servicios/extraccion.png",
+        "fadein": "right"
+      },
+      {
+        "nombre": "Implantes Dentales",
+        "descripcion": "Colocación de implantes de titanio para sustituir dientes perdidos, restaurando la función y la estética de la sonrisa.",      
+        "precio": "$600.00 MXN",
+        "imageSrc": "servicios/implante.png",
+        "fadein": "right"
+      },
+      {
+        "nombre": "Blanqueamiento Dental",
+        "descripcion": "Tratamientos para aclarar los dientes y eliminar manchas o decoloraciones causadas por alimentos, bebidas, tabaco o envejecimiento.",      
+        "precio": "$600.00 MXN",
+        "imageSrc": "servicios/blancamiento.png",
+        "fadein": "right"
+      },
+      {
+        "nombre": "Estética Dental",
+        "descripcion": "Procedimientos para mejorar la apariencia de la sonrisa, como el uso de carillas dentales, contorneado de encías y otros tratamientos estéticos para dientes y encías.",      
+        "precio": "$600.00 MXN",
+        "imageSrc": "servicios/estetica.png",
+        "fadein": "right"
+      }
+]

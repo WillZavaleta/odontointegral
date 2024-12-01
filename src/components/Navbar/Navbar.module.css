@@ -1,0 +1,165 @@
+@import "../../vars.css";
+
+.logo{
+    width: 50px;
+}
+
+.circulofondo {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: -70px;
+    right: 66vw;
+    opacity: 0.8;
+    border-radius: 764px;
+    background: var(--color-accent);
+    background: linear-gradient(240deg, var(--color-lightblue) 15%, var(--color-sky) 45%, var(--color-accent) 70%, var(--color-dark) 100%);
+    box-shadow: 5px 5px 15px 0px rgba(212,228,244,1);
+    overflow: hidden;
+    /* filter: blur(100px); */
+    z-index: -10 !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin: 0 10%;
+    background-color: var(--color-bg);
+    z-index: 10;
+}
+
+nav .title {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-accent);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    transition: .6s;
+}
+
+nav ul li a:hover{
+    cursor:pointer;
+    color: var(--color-sky);
+}
+
+
+nav .menu {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 1.5rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 2.25rem;
+    height: 2.2rem;
+
+}
+
+nav .menu span {
+    height: 0.32rem;
+    width: 100%;
+    background-color: var(--color-dark);
+    padding-bottom: 0;
+}
+nav .menu span:nth-child(2) {  
+    height: 0.32rem;  
+    width: 60%;
+}
+nav .menu span:nth-child(3) {  
+    height: 0.32rem;
+    width: 90%;
+}
+
+.burgerBar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(-0.1em, 1.25em);
+    transition: ease-out 0.5s;
+}
+.burgerBar.clicked:nth-child(2){
+    transform: scale(0);
+    transition: ease-out 0.5s;
+}
+.burgerBar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(0.35em, 1em);
+    transition: ease-out 0.5s;
+    width: 100%;
+}
+
+.burgerBar.unclicked{
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+@media (max-width: 830px) {
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        animation: fade-in 1500ms forwards;
+    }
+
+    nav ul.open {
+        display: flex;
+        
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fade-out {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a{
+        margin: 0.2rem 0.5rem;
+    }
+}

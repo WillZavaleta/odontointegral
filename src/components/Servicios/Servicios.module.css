@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    color: var(--color-dark);
+    padding-left: 55px;
+    text-align: left;
+    text-shadow: 2px 2px 0px rgba(212,228,244,1);
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.service{
+    background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(5px);     
+    border-radius: 10px;
+    padding: 24px;
+    list-style: none;
+    max-width: 25%;
+    box-shadow: 5px 5px 15px 0px rgba(212,228,244,1);
+    z-index: 1;
+
+}
+
+.service img{
+    width: 30%;
+}
+
+.service h3{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--color-accent);
+    text-align: left;
+}
+
+.service p{
+    font-size: 16px;
+    margin-bottom: 12px;
+    text-align: justify;
+    color: var(--color-gray)
+}
+
+.service span{
+    font-size: 13px;
+    color: var(--color-bg);
+    background-color: var(--color-sky);
+    padding: 3px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.dienteFondo{
+    position: absolute;
+    opacity: 0.3;
+    right: 15vw;
+    top: 20vw;
+    z-index: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .service{
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .service{
+        max-width: 90%;
+    }
+
+    .dienteFondo{
+        right: -45vw;
+        top: 95vw;
+        
+    }
+}
