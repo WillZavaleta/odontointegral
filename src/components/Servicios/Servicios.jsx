@@ -14,7 +14,7 @@ export const Servicios = () => {
                         <img src={getImageUrl(serviceItem.imageSrc)} alt={serviceItem.nombre} />
                         <h3>{serviceItem.nombre}</h3>
                         <p>{serviceItem.descripcion}</p>
-                        <span>{serviceItem.precio}</span>
+                        <span>Desde: {serviceItem.precio}</span>
                     </li>
                 )
             })

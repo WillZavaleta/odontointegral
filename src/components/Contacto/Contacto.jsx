@@ -36,7 +36,7 @@ export const Contacto = () => {
                     <img src={getImageUrl("contacto/ubicacion.png")} alt="" />
                     <div className={styles.textContent}>
                         <p>Visítanos</p>
-                        <a href="">Av. Siempre Viva 150, Centro. Xalapa, Veracruz</a>
+                        <a href="">Av. Orizaba 329, Fracc. Veracruz, 91020 Xalapa, Veracruz.</a>
                     </div>
                 </li>
             </ul>

@@ -28,6 +28,10 @@
     text-shadow: 2px 2px 0px rgba(212,228,244,1);
 }
 
+.containerCV{
+    width: 50%;
+}
+
 .containerCV H3{
     font-size: 21px;
     font-weight: 600;
@@ -36,8 +40,15 @@
     text-align: left;
 }
 
+.containerCV p{
+    text-align: justify;
+    color: var(--color-gray);
+    margin-bottom: 10px;
+}
+
 .resume{
-    color: var(--color-gray)
+    color: var(--color-gray);
+    margin-left: 20px;
 }
 
 .contenedorCirculos{
