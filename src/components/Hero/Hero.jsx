@@ -13,7 +13,7 @@ export const Hero = () => {
                 <a href="#contacto" className={styles.contactBtn}>Saca tu Cita</a>
             </div>
 
-            <img src={getImageUrl("hero/hero.jpg")} alt="Mi foto" className={`${styles.heroImg}`} />
+            <img src={getImageUrl("hero/hero1.jpg")} alt="Mi foto" className={`${styles.heroImg}`} />
 
             <div className={styles.circulofondo}></div>
         </section>
