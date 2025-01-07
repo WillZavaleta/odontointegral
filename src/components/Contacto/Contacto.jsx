@@ -40,8 +40,8 @@ export const Contacto = () => {
                         </div>
                     </li>
                 </ul>
-                <div className={styles.formContainer}>
-                    {/* <p>Ponte en contacto para coordinar una cita</p>
+                {/* <div className={styles.formContainer}>
+                    <p>Ponte en contacto para coordinar una cita</p>
                 <form className={`${styles.formulario}`}>
                     <label>Nombre</label>
                     <input type="text" name="user_name" required />
@@ -52,11 +52,11 @@ export const Contacto = () => {
                     <label>Mensaje</label>
                     <textarea name="message" required />
                     <input type="submit" value="Enviar" />
-                </form> */}
-                
-                    <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/luis-eduardo-velasco-sanchez/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="luis-eduardo-velasco-sanchez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Luis Eduardo Velasco Sánchez - Doctoralia.com.mx</a>
+                </form>                
+                </div> */}
+                <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/luis-eduardo-velasco-sanchez/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="luis-eduardo-velasco-sanchez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Luis Eduardo Velasco Sánchez - Doctoralia.com.mx</a>
                     {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.es/marta-laorga-fuentes/psicologo/mostoles" rel="nofollow" data-zlw-doctor="marta-laorga-fuentes" data-zlw-type="big" data-zlw-opinion="false" data-zlw-hide-branding="true">Marta Laorga Fuentes - Doctoralia.es</a> */}
-                </div>
+
             </div>
         </section>
     )
