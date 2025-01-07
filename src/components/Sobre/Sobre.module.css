@@ -30,6 +30,7 @@
 
 .containerCV{
     width: 50%;
+    z-index: 1;
 }
 
 .containerCV H3{
@@ -62,6 +63,7 @@
     right: 30px;
     top: 110px;
     gap: 10px;
+    z-index: 0;
 }
 
 .circulofondo{
