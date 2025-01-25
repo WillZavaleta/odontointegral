@@ -54,8 +54,10 @@ export const Contacto = () => {
                     <input type="submit" value="Enviar" />
                 </form>                
                 </div> */}
-                <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/luis-eduardo-velasco-sanchez/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="luis-eduardo-velasco-sanchez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Luis Eduardo Velasco Sánchez - Doctoralia.com.mx</a>
-                    {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.es/marta-laorga-fuentes/psicologo/mostoles" rel="nofollow" data-zlw-doctor="marta-laorga-fuentes" data-zlw-type="big" data-zlw-opinion="false" data-zlw-hide-branding="true">Marta Laorga Fuentes - Doctoralia.es</a> */}
+                {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/luis-eduardo-velasco-sanchez/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="luis-eduardo-velasco-sanchez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Luis Eduardo Velasco Sánchez - Doctoralia.com.mx</a> */}
+                <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/jorge-garcia-gonzalez/quiropractico/santiago-de-queretaro" rel="nofollow" data-zlw-doctor="jorge-garcia-gonzalez" data-zlw-type="big" data-zlw-opinion="true" data-zlw-hide-branding="true">Jorge García González - Doctoralia.com.mx</a>
+                     
+                {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.es/marta-laorga-fuentes/psicologo/mostoles" rel="nofollow" data-zlw-doctor="marta-laorga-fuentes" data-zlw-type="big" data-zlw-opinion="false" data-zlw-hide-branding="true">Marta Laorga Fuentes - Doctoralia.es</a> */}
 
             </div>
         </section>
