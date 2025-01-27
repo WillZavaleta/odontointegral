@@ -5,7 +5,7 @@ import { getImageUrl } from '../../utils'
 export const Sobre = () => {
   return (
     <section className={styles.container} id="nosotros">
-      <img src={getImageUrl("sobre/hero3.jpeg")} alt="" />
+      <img src={getImageUrl("sobre/hero3.jpg")} alt="" />
       <div className={styles.containerCV}>
         <h2 className={styles.title}>Sobre mi</h2>
         <h3>Dr. Luis Eduardo Velasco Sánchez </h3>
