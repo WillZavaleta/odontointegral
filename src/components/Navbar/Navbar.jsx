@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <nav>
-            <div className={styles.circulofondo}></div>
+            {/* <div className={styles.circulofondo}></div> */}
             <a to="/" className={styles.title}><img className={styles.logo} src={getImageUrl("navbar/logo.png")} alt="" />Odontología Integral</a>
             <div className={styles.menu} onClick={() => {
                 setMenuOpen(!menuOpen)
