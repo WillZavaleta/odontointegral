@@ -19,7 +19,7 @@
     align-items: flex-start;
     margin-left: 15px;
     width: 40%;
-    z-index: 1;
+    
 }
 
 .title {
@@ -52,16 +52,83 @@
     transition: all 0.2s;
 }
 
+.imageContainer{
+    height: 600px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
 .heroImg {
-    width: 35%;
-    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    /* width: 35%; */
+    z-index: -2;
     border-radius: 5%;
+    transition: opacity 1s ease-in-out !important; /* Transición suave en opacidad */
     /* box-shadow: 5px 5px 15px 0px rgba(212,228,244,1); */
 
-   /* animation-name: floating;
-    animation-duration: 3s;
+    /* animation-name: change;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;*/
+    animation-timing-function: ease-in-out; */
+}
+
+.heroImg.visible {
+    opacity: 1 !important;
+    z-index: 3 !important;
+}
+
+/* @keyframes change {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(-180deg);
+    }
+}
+
+
+@keyframes scale {
+    0% {
+        width: 35%;
+    }
+
+    25% {
+        width: 37%;
+    }
+
+    50% {
+        width: 40%;
+    }
+
+    75% {
+        width: 37%;
+    }
+
+    100% {
+        width: 35%;
+    }
 }
 
 @keyframes floating {
@@ -74,7 +141,7 @@
     100% {
         transform: translate(0, -0px);
     }
-}
+} */
 
 .circulofondo {
     position: absolute;
