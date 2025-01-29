@@ -24,11 +24,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */    
     top: 0;
-    margin: 0 10%;
-    background-color: var(--color-bg);
-    z-index: 10;
+    padding: 0 10%;
+    background-color: var(--color-bg);    
+    z-index: 10 !important;
+    transition: all 1s ease;
+    /* para menu fijado */
+    position: fixed;
+    width: 100%;
+}
+
+.changeNavbar{
+    box-shadow: 5px 5px 15px 0px rgba(212,228,244,1);
 }
 
 nav .title {
@@ -120,8 +128,7 @@ nav .menu span:nth-child(3) {
     nav {
         flex-direction: column;
         align-items: start;
-        margin: 0;
-        padding-top: 0;
+        padding: 0;
     }
 
     nav ul {

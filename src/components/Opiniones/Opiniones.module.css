@@ -38,7 +38,7 @@
     /* background-color: blue; */
     background: var(--color-lightblue);
     top: 110px;
-    z-index: 10;
+    z-index: 9;
 }
 
 .parche2{
@@ -48,5 +48,5 @@
     /* background-color: blueviolet; */
     background: var(--color-lightblue);
     top: 420px;
-    z-index: 10;
+    z-index: 9;
 }

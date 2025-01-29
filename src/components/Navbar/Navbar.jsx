@@ -5,8 +5,16 @@ import { getImageUrl } from '../../utils'
 export const Navbar = () => {
     const [burger_class, setBurgerClass] = useState(`${styles.burgerBar} ${styles.unclicked}`)
     const [menuOpen, setMenuOpen] = useState(false)
+    const [navbar, setNavbar] = useState(false)
+
+    const changeNavbar = () => {
+        window.scrollY >= 100 ? setNavbar(true) : setNavbar(false)
+    }
+
+    window.addEventListener("scroll", changeNavbar)
+
     return (
-        <nav>
+        <nav className={`${navbar && styles.changeNavbar}`}>
             {/* <div className={styles.circulofondo}></div> */}
             <a to="/" className={styles.title}><img className={styles.logo} src={getImageUrl("navbar/logo.png")} alt="" />Odontología Integral</a>
             <div className={styles.menu} onClick={() => {
