@@ -8,7 +8,8 @@
     --color-mediumblue: #9bbeea;
     --color-lightblue: #D4E4F4;
     --color-gray: #666666;
-    --color-bg: #f9fbff;
+    /* --color-bg: #f9fbff; */
+    --color-bg: #d4e4f4;
 
     /*Fuentes*/
     --font-roboto: "Roboto";
