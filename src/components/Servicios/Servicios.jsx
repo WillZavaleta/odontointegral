@@ -16,7 +16,19 @@ export const Servicios = () => {
                             variants={fadeIn('up', 0.1, 0.3)}
                             initial="hidden"
                             whileInView={"show"}
-                            viewport={{ once: false, amount: 0.7 }}
+                            viewport={{ once: true, amount: 0.7 }}
+                            whileHover={{
+                                scale: [null, 1, 1.1],
+                                transition: {
+                                    duration: 0.5,
+                                    times: [0, 0.6, 1],
+                                    ease: ["easeInOut", "easeOut"],
+                                },
+                            }}
+                            transition={{
+                                duration: 0.3,
+                                ease: "easeOut",
+                            }}
 
                             className={styles.service} key={id}>
                             <img src={getImageUrl(serviceItem.imageSrc)} alt={serviceItem.nombre} />

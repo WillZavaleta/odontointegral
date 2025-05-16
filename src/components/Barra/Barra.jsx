@@ -13,7 +13,7 @@ export const Barra = () => {
                 <img src={getImageUrl("barra/pinIcon.png")} alt="" />
                 <div className={styles.barraItemText}>
                     <h2>Dirección</h2>
-                    <p> Américas 590 entre Grijalva y Pedro de Alvarado Fracc. Virginia</p>
+                    <p> Américas 590 entre Grijalva y <br />Pedro de Alvarado Fracc. Virginia</p>
                     {/* <p>Xalapa, Veracruz</p> */}
                 </div>
             </li>

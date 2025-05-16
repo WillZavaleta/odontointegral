@@ -3,7 +3,7 @@
 .container{
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
     gap:20px;
@@ -179,7 +179,7 @@
     }
 
     .container{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 50px;
     }
 
