@@ -12,5 +12,12 @@
       "title": "Equipo de Seguridad",
       "body": "Contamos con equipo de seguridad contra incendios para salvaguardar tu propiedad.",
       "link": "/venta-de-equipo-contra-incendios"
+    },
+    {
+      "id": 2, 
+      "url": "hero/hero3.jpg",
+      "title": "Equipo de Seguridad",
+      "body": "Contamos con equipo de seguridad contra incendios para salvaguardar tu propiedad.",
+      "link": "/venta-de-equipo-contra-incendios"
     }
 ]

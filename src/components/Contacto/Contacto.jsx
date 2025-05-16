@@ -29,11 +29,14 @@ export const Contacto = () => {
     return (
 
         <section className={styles.container} id="contacto">
-            <h2 className={styles.title}>Programa tu cita</h2>
+            <h2 className={`${styles.title}`}>Programa tu cita</h2>
             <div className={styles.contactContainer}>
                 <div className={styles.doctoraliaContainer}>
-                    <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/luis-eduardo-velasco-sanchez/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="luis-eduardo-velasco-sanchez" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Luis Eduardo Velasco Sánchez - Doctoralia.com.mx</a>
+                    <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/gerardo-padron-lagunes/dentista-odontologo/veracruz" rel="nofollow" data-zlw-doctor="gerardo-padron-lagunes" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Gerardo Padrón Lagunes - Doctoralia.com.mx</a>
                 </div>
+                {/* <div className={styles.doctoraliaContainer}>
+                    <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/miguel-eric-garcia-mendez-2/dentista-odontologo/xalapa" rel="nofollow" data-zlw-doctor="miguel-eric-garcia-mendez-2" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Miguel Erick García Méndez - Doctoralia.com.mx</a>
+                </div> */}
                 {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/jorge-garcia-gonzalez/quiropractico/santiago-de-queretaro" rel="nofollow" data-zlw-doctor="jorge-garcia-gonzalez" data-zlw-type="big" data-zlw-opinion="true" data-zlw-hide-branding="true">Jorge García González - Doctoralia.com.mx</a> */}
                 {/* <a id="zl-url" className="zl-url" href="https://www.doctoralia.es/marta-laorga-fuentes/psicologo/mostoles" rel="nofollow" data-zlw-doctor="marta-laorga-fuentes" data-zlw-type="big" data-zlw-opinion="false" data-zlw-hide-branding="true">Marta Laorga Fuentes - Doctoralia.es</a> */}
 

@@ -13,15 +13,15 @@ export const Barra = () => {
                 <img src={getImageUrl("barra/pinIcon.png")} alt="" />
                 <div className={styles.barraItemText}>
                     <h2>Dirección</h2>
-                    <p>Av. Orizaba 329, Fracc. Veracruz, 91020</p>
-                    <p>Xalapa, Veracruz</p>
+                    <p> Américas 590 entre Grijalva y Pedro de Alvarado Fracc. Virginia</p>
+                    {/* <p>Xalapa, Veracruz</p> */}
                 </div>
             </li>
             <li className={styles.barraItem}>
                 <img src={getImageUrl("barra/telefonoIcon.png")} alt="" />
                 <div className={styles.barraItemText}>
                     <h2>Teléfono</h2>
-                    <p>228 232 3456</p>
+                    <p>228 355 6682</p>
                 </div>
             </li>
             <li className={styles.barraItem}>
