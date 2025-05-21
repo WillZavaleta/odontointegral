@@ -1,0 +1,23 @@
+[
+    {
+      "titulo": "Blanqueamiento Dental",
+      "descripcion": "Eliminación de caries mediante la extracción de la parte afectada y la colocación de un material restaurador (resina compuesta, cerámica, etc.).",      
+      "antes": "resultados/blanqueamiento-antes.jpg",
+      "despues": "resultados/blanqueamiento-despues.jpg",
+      "fadein": "right"
+    },
+    {
+      "titulo": "Cambio de Empaste",
+      "descripcion": "Eliminación de caries mediante la extracción de la parte afectada y la colocación de un material restaurador (resina compuesta, cerámica, etc.).",      
+      "antes": "resultados/cambio-empaste-antes.jpg",
+      "despues": "resultados/cambio-empaste-despues.jpg",
+      "fadein": "right"
+    },
+    {
+      "titulo": "Eliminación de Caries Dental",
+      "descripcion": "Eliminación de caries mediante la extracción de la parte afectada y la colocación de un material restaurador (resina compuesta, cerámica, etc.).",      
+      "antes": "resultados/caries-dental-antes.jpg",
+      "despues": "resultados/caries-dental-despues.jpg",
+      "fadein": "right"
+    }
+]

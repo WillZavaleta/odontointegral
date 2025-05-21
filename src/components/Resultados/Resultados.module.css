@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    color: var(--color-dark);
+    padding-left: 55px;
+    text-align: left;
+    text-shadow: 2px 2px 0px rgba(212,228,244,1);
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}

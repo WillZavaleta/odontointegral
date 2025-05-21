@@ -1,37 +1,52 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from './Contacto.module.css'
 import { getImageUrl } from '../../utils'
 
 export const Contacto = () => {
+    const containerRef = useRef();
 
-    useEffect(() => {
-        const script = document.createElement('script');
-        // script.src = "/path/to/resource.js";
-        script.async = true;
-        script.onload = !function ($_x, _s, id) {
-            var js, fjs = $_x.getElementsByTagName(_s)[0];
-            if (!$_x.getElementById(id)) {
-                js = $_x.createElement(_s);
-                js.id = id;
-                js.src = "//platform.docplanner.com/js/widget.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }
-            (document, "script", "zl-widget-s");
+  useEffect(() => {
+    const existingScript = document.querySelector('script[src="https://platform.docplanner.com/js/widget.js"]');
 
-        document.body.appendChild(script);
+    // Si el script ya está cargado, reejecutamos el procesamiento
+    if (existingScript) {
+      window.zlw && window.zlw.onload();
+    } else {
+      const script = document.createElement('script');
+      script.src = 'https://platform.docplanner.com/js/widget.js';
+      script.async = true;
+      document.body.appendChild(script);
+    }
+  }, []);
 
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, [])
+    // useEffect(() => {
+    //     const script = document.createElement('script');
+    //     // script.src = "/path/to/resource.js";
+    //     script.async = true;
+    //     script.onload = !function ($_x, _s, id) {
+    //         var js, fjs = $_x.getElementsByTagName(_s)[0];
+    //         if (!$_x.getElementById(id)) {
+    //             js = $_x.createElement(_s);
+    //             js.id = id;
+    //             js.src = "//platform.docplanner.com/js/widget.js";
+    //             fjs.parentNode.insertBefore(js, fjs);
+    //         }
+    //     }
+    //         (document, "script", "zl-widget-s");
+
+    //     document.body.appendChild(script);
+
+    //     return () => {
+    //         document.body.removeChild(script);
+    //     }
+    // }, [])
 
     return (
 
         <section className={styles.container} id="contacto">
             <h2 className={`${styles.title}`}>Programa tu cita</h2>
             <div className={styles.contactContainer}>
-                <div className={styles.doctoraliaContainer}>
+                <div className={styles.doctoraliaContainer} ref={containerRef}>
                     <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/gerardo-padron-lagunes/dentista-odontologo/veracruz" rel="nofollow" data-zlw-doctor="gerardo-padron-lagunes" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Gerardo Padrón Lagunes - Doctoralia.com.mx</a>
                 </div>
                 {/* <div className={styles.doctoraliaContainer}>

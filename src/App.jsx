@@ -7,6 +7,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Opiniones } from './components/Opiniones/Opiniones'
 import { Pie } from './components/Pie/Pie'
 import { Servicios } from './components/Servicios/Servicios'
+import { Resultados } from './components/Resultados/Resultados'
 import { Sobre } from './components/Sobre/Sobre'
 import { getImageUrl } from './utils'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
@@ -30,6 +31,7 @@ function App() {
         <Hero />
         <Barra />
         <Servicios />
+        <Resultados />
         <Sobre />
         <Galeria />
         <Opiniones />

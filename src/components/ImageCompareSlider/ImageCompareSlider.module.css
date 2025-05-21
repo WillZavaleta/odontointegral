@@ -1,0 +1,53 @@
+@import "../../vars.css";
+
+.compareContainer {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  overflow: hidden;
+  cursor: ew-resize;
+  box-shadow: 5px 5px 15px 0px rgba(212,228,244,1);
+  border-radius: 10px;
+}
+
+.compareContainer .title{
+  position: absolute;
+  background-color: var(--color-sky);
+  width: 100%;
+  text-align: center;
+  color: var(--color-dark);
+  padding: 10px;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+.compareImg {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.compareBefore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.compareBefore img {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.compareSlider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color:  var(--color-sky);
+  z-index: 2;
+}
