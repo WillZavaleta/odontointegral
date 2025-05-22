@@ -6,7 +6,8 @@
     padding-right: 7%;
     padding-top: 7vw;
     padding-bottom: 7vw;
-    background: linear-gradient(180deg, var(--color-bg) 20%, var(--color-lightblue) 100%);
+    background-color: var(--color-lightblue);
+    /* background: linear-gradient(180deg, var(--color-bg) 20%, var(--color-lightblue) 100%); */
 }
 
 .title{

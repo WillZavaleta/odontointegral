@@ -42,7 +42,7 @@ export const Sobre = () => {
         </ul>
       </div>
       <motion.img
-        variants={fadeIn('down', 1, 0.4)}
+        variants={fadeIn('down', 0.1, 0.4)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}

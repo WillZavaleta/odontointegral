@@ -9,7 +9,7 @@ export const Pie = () => {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.6370537002995!2d-96.12400887868611!3d19.167358235976575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c341476e97b2bb%3A0x42d3b815a25466d0!2sDr.%20Gerardo%20Padr%C3%B3n%20Lagunes!5e0!3m2!1ses-419!2smx!4v1747366513397!5m2!1ses-419!2smx" width="1400" height="400" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
             </div>
             <div className={styles.marca}>
-                <p>Odontología Integral | 2024</p>
+                <p>Odontología Integral | 2025</p>
             </div>
         </footer>
     )

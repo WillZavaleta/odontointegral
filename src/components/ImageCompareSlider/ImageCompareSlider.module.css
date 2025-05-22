@@ -3,12 +3,14 @@
 .compareContainer {
   position: relative;
   width: 100%;
-  max-width: 350px;
+  max-width: 330px;
   height: auto;
   overflow: hidden;
   cursor: ew-resize;
   box-shadow: 5px 5px 15px 0px rgba(212,228,244,1);
   border-radius: 10px;
+  touch-action: none; /* Permite controlar el touch en móviles */
+
 }
 
 .compareContainer .title{

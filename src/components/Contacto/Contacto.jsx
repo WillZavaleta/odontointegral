@@ -80,14 +80,6 @@ export const Contacto = () => {
                         </li>
                         <div className={styles.border}></div>
                         <li className={styles.link}>
-                            <img src={getImageUrl("contacto/whatsapp.png")} alt="" />
-                            {/* <div className={styles.textContent}>
-                                <p>Chatea con Nosotros</p>
-                                <a href="">228 233 2385</a>
-                            </div> */}
-                        </li>
-                        <div className={styles.border}></div>
-                        <li className={styles.link}>
                             <img src={getImageUrl("contacto/telefono.png")} alt="" />
                             {/* <div className={styles.textContent}>
                                 <p>Llámanos</p>
@@ -96,7 +88,15 @@ export const Contacto = () => {
                         </li>
                         <div className={styles.border}></div>
                         <li className={styles.link}>
-                            <img src={getImageUrl("contacto/ubicacion.png")} alt="" />
+                            <img src={getImageUrl("contacto/facebook.png")} alt="" />
+                            {/* <div className={styles.textContent}>
+                                <p>Chatea con Nosotros</p>
+                                <a href="">228 233 2385</a>
+                            </div> */}
+                        </li>
+                        <div className={styles.border}></div>
+                        <li className={styles.link}>
+                            <img src={getImageUrl("contacto/linkedin.png")} alt="" />
                             {/* <div className={styles.textContent}>
                                 <p>Visítanos</p>
                                 <a href="">Av. Orizaba 329, Fracc. Veracruz, 91020 Xalapa, Veracruz.</a>
