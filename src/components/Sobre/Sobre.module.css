@@ -36,7 +36,7 @@
 }
 
 .containerCV H3{
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 12px;
     color: var(--color-accent);
@@ -47,11 +47,31 @@
     text-align: justify;
     color: var(--color-gray);
     margin-bottom: 10px;
+    font-size: 17px;
 }
 
 .resume{
     color: var(--color-gray);
     margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.cedula{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: var(--color-gray);
+    background: linear-gradient(180deg, var(--color-lightblue) 20%, var(--color-sky) 100%);
+    color:var(--color-gray);
+    padding: 10px;
+    text-align: center;
+    min-width: 220px;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.cedula li{
+    list-style: none;
 }
 
 .contenedorCirculos{
@@ -63,7 +83,7 @@
     min-width: 25%;
     min-height: 25%;
     right: 30px;
-    top: 110px;
+    top: 100px;
     gap: 10px;
     z-index: 0;
 }

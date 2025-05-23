@@ -36,6 +36,7 @@ function App() {
         <Galeria />
         <Opiniones />
         <Contacto />
+        <Barra />
         <Pie />
       </div>
     </>
