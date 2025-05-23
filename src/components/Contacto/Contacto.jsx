@@ -46,9 +46,9 @@ export const Contacto = () => {
         <section className={styles.container} id="contacto">
             <h2 className={`${styles.title}`}>Programa tu cita</h2>
             <div className={styles.contactContainer}>
-               {/* <div className={styles.doctoraliaContainer} ref={containerRef}>
+               <div className={styles.doctoraliaContainer} ref={containerRef}>
                     <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/juan-jose-estrada-orozco/dentista-odontologo-cirujano-maxilofacial/cuauhtemoc2" rel="nofollow" data-zlw-doctor="juan-jose-estrada-orozco" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Juan José Estrada Orozco - Doctoralia.com.mx</a>
-                </div>  */}
+                </div> 
                 {/* <div className={styles.doctoraliaContainer} ref={containerRef}>
                     <a id="zl-url" className="zl-url" href="https://www.doctoralia.com.mx/gerardo-padron-lagunes/dentista-odontologo/veracruz" rel="nofollow" data-zlw-doctor="gerardo-padron-lagunes" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="false">Dr. Gerardo Padrón Lagunes - Doctoralia.com.mx</a>
                 </div> */}
